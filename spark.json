@@ -1,0 +1,7 @@
+{
+    "name": "azure_umqtt_c",
+    "author": "dcristo@microsoft.com",
+    "license": "MIT",
+    "version": "0.0.2",
+    "description": "Experimental port - General purpose MQTT library"
+}
