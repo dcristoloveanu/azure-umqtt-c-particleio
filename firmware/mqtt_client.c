@@ -135,7 +135,7 @@ static void getLogTime(char* timeResult, size_t len)
 {
     if (timeResult != NULL)
     {
-        time_t localTime = time(NULL);
+        time_t localTime = get_time(NULL);
         struct tm* tmInfo = localtime(&localTime);
         if (strftime(timeResult, len, "%H:%M:%S", tmInfo) == 0)
         {
